@@ -35,7 +35,7 @@ class Auto_Thumbnail_Title_i18n {
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'auto thumbnail title',
+			'auto-thumbnail-title',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
